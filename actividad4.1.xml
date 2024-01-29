@@ -1,0 +1,8 @@
+<? xml version="1.0" encoding= "UTF-8" ?>
+<billete-avion>
+    <nombre-pasajero>Alberto</nombre-pasajero>
+    <aeropurto-origen>Barajas</aeropurto-origen>
+    <aeropuerto-destino>Aeropuerto Milan</aeropuerto-destino>
+    <fecha>5/10/2024</fecha>
+    <hora>14:30</hora>
+</billete-avion>
