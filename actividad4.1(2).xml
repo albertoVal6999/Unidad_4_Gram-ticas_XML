@@ -1,0 +1,20 @@
+<? xml version="1.0" encoding= "UTF-8" ?>
+<playlist>
+    <nombre-playlist>Top 50 España</nombre-playlist>
+    <cancion>
+        <nombre>Amanece</nombre>
+        <duracion>2:46</duracion>
+        <album>RHLM</album>
+        <fecha>3/06/2017</fecha>
+        <autor>
+            <nombre>Anuel AA</nombre>
+            <num-oyentes-mensual>560000</num-oyentes-mensual>
+        </autor>
+    </cancion>
+    <canciones-recomendadas>
+        <canciones>
+            <nombre>Replay</nombre>
+            <nombAutor>Maikel de la Calle</nombAutor>
+        </canciones>
+    </canciones-recomendadas>
+</playlist>
