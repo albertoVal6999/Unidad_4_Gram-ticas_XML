@@ -8,8 +8,10 @@
         <unidad id="1">
             <nombre>Desarrollo software</nombre>
             <duracion>20</duracion>
+        </unidad>
         <unidad id="2">
             <nombre>Lenguaje de Marcas</nombre>
             <duracion>25</duracion>
-        </unidades>
+        </unidad>
+    </unidades>
 </desarrollo-aplicaciones-web>
