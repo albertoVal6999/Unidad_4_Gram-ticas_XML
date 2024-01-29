@@ -1,0 +1,15 @@
+<? xml version="1.0" encoding= "UTF-8" ?>
+<desarrollo-aplicaciones-web>
+    <nombre>Entornos de Desarrollo</nombre>
+    <codigo>0487</codigo>
+    <ECTS>6</ECTS>
+    <duracion>96</duracion>
+    <unidades>
+        <unidad id="1">
+            <nombre>Desarrollo software</nombre>
+            <duracion>20</duracion>
+        <unidad id="2">
+            <nombre>Lenguaje de Marcas</nombre>
+            <duracion>25</duracion>
+        </unidades>
+</desarrollo-aplicaciones-web>
