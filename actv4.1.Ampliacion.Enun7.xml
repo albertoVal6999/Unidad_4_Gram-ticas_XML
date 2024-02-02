@@ -1,0 +1,37 @@
+<? xml version="1.0" encoding= "UTF-8" ?>
+<pedido>
+    <producto>
+        <nombre-producto>Cortadora de cesped</nombre-producto>
+        <cantidad>1</cantidad>
+        <modelo>electrico</modelo>
+        <precio>148.95</precio>
+        <codigo>872-AA</codigo>
+    </producto>
+    <producto>
+        <nombre-producto>Podadora de setos</nombre-producto>
+        <cantidad>3</cantidad>
+        <modelo>electrico</modelo>
+        <precio>7.98</precio>
+        <codigo>926-FH</codigo>
+    </producto>
+    <datos-comprador>
+        <nombre>Roberto</nombre>
+        <apellido>Movilla</apellido>
+        <direccion-entrega>Plaza de la Duquesa, 12</direccion-entrega>
+        <ciudad>Albacete</ciudad>
+        <codigo-postal-envio>05020</codigo-postal-envio>
+        <recogera-producto>
+            <nombre>Alicia</nombre>
+            <apellido>Abad</apellido>
+        </recogera-producto>
+        <direccion-facturacion>General Ricardos, 56</direccion-facturacion>
+        <ciudad-facturacion>Madrid</ciudad-facturacion>
+        <codigo-postal-facturacion>28055</codigo-postal-facturacion>
+    </datos-comprador>
+    <fecha-pedido>
+        <dia>20</dia>
+        <mes>Octubre</mes>
+        <anyo>1999</anyo>
+    </fecha-pedido>
+   
+</pedido>
