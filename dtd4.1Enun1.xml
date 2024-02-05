@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding= "UTF-8"?> <!--xml tiene que ir junto al interrogante-->
+
+<!DOCTYPE ciudades[
+<!ELEMENT ciudades (ciudad+)> <!--Tiene que haber un espacio antes del parentesis-->
+<!ELEMENT ciudad (nombre,pais)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ATTLIST pais continente ID #REQUIRED>
+]>
+<ciudades>
+    <ciudad>
+        <nombre>Nueva Delhi</nombre>
+        <pais continente="Asia">India</pais>
+    </ciudad>
+    <ciudad>
+        <nombre>Lisboa</nombre>
+        <pais continente="Europa">Portugal</pais>
+    </ciudad>
+    <ciudad>
+        <nombre>El Cairo</nombre>
+        <pais continente="Africa">Egipto</pais>
+    </ciudad>    
+</ciudades>
