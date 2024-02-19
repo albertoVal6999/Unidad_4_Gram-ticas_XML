@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding= "UTF-8" ?>
+<!DOCTYPE catalogo[
+<!ELEMENT catalogo (producto+)>
+<!ELEMENT producto (nombreProducto,descripcion,precio,caracteristicas)>
+<!ELEMENT nombreProducto (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT caracteristicas (nombre,valor)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT valor (#PCDATA)>
+]>
+<catalogo>
+    <producto>
+        <nombreProducto>Monitor Samsung X345</nombreProducto>
+        <descripcion>Monitor gaming de alta resolucion</descripcion>
+        <precio>222Eu</precio>
+        <caracteristicas>
+            <nombre>Pantalla HD</nombre>
+            <valor>28 pulgadas</valor>
+        </caracteristicas>
+    </producto>
+    <producto>
+        <nombreProducto>Iphone XR</nombreProducto>
+        <descripcion>Telefono Movil</descripcion>
+        <precio>322Eu</precio>
+        <caracteristicas>
+            <nombre>Iphone XR</nombre>
+            <valor>128gb</valor>
+        </caracteristicas>
+    </producto>
+</catalogo>
