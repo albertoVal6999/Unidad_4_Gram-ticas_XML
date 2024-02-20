@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding= "UTF-8" ?>
 
-<!DOCTYPE libreria[
-<!ELEMENT libreria (libro+) >
-<!ELEMENT libro (titulo,autor,precio,disponible)>
-<!ATTLIST libro genero CDATA #REQUIRED> 
-<!ELEMENT titulo (#PCDATA) >
-<!ELEMENT autor (#PCDATA) >
-<!ELEMENT precio (#PCDATA) >
-<!ELEMENT disponible (#PCDATA) >
-]>
-
 <libreria>
     <libro genero="Ciencia ficcion">
         <titulo>La Fundacion</titulo>
