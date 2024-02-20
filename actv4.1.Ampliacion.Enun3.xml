@@ -1,10 +1,10 @@
-<? xml version="1.0" encoding= "UTF-8" ?>
+<?xml version="1.0" encoding= "UTF-8" ?>
 <catalogo>
     <producto>
         <nombre>Monitor Samsung X345</nombre>
         <descripcion>Monitor gaming de alta resolucion</descripcion>
         <precio>222Eu</precio>
-        <caracteristica>
+        <caracteristicas>
             <nombre>Pantalla HD</nombre>
             <valor>28 pulgadas</valor>
         </caracteristicas>
@@ -13,7 +13,7 @@
         <nombre>Iphone XR</nombre>
         <descripcion>Telefono Movil</descripcion>
         <precio>322Eu</precio>
-        <caracteristica>
+        <caracteristicas>
             <nombre>Iphone XR</nombre>
             <valor>128gb</valor>
         </caracteristicas>
