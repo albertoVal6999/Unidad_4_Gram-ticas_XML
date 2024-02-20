@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding= "UTF-8" ?>
+<!DOCTYPE pedido[
+<!ELEMENT pedido (producto+,datos-comprador,fecha-pedido)>
+<!ELEMENT producto (nombre-producto,cantidad,modelo,precio,codigo)>
+<!ELEMENT nombre-producto (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT modelo (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT codigo (#PCDATA)>
+<!ELEMENT datos-comprador (nombreComprador,apellidoComprador,direccion-entrega,ciudad,codigo-postal-envio,
+recogera-producto,direccion-facturacion,ciudad-facturacion,codigo-postal-facturacion)>
+<!ELEMENT nombreComprador (#PCDATA)>
+<!ELEMENT apellidoComprador (#PCDATA)>
+<!ELEMENT direccion-entrega (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT codigo-postal-envio (#PCDATA)>
+<!ELEMENT recogera-producto (nombre,apellido)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT direccion-facturacion (#PCDATA)>
+<!ELEMENT ciudad-facturacion (#PCDATA)>
+<!ELEMENT codigo-postal-facturacion (#PCDATA)>
+<!ELEMENT fecha-pedido (dia,mes,anyo)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT anyo (#PCDATA)>
+]>
+<pedido>
+    <producto>
+        <nombre-producto>Cortadora de cesped</nombre-producto>
+        <cantidad>1</cantidad>
+        <modelo>electrico</modelo>
+        <precio>148.95</precio>
+        <codigo>872-AA</codigo>
+    </producto>
+    <producto>
+        <nombre-producto>Podadora de setos</nombre-producto>
+        <cantidad>3</cantidad>
+        <modelo>electrico</modelo>
+        <precio>7.98</precio>
+        <codigo>926-FH</codigo>
+    </producto>
+    <datos-comprador>
+        <nombreComprador>Roberto</nombreComprador>
+        <apellidoComprador>Movilla</apellidoComprador>
+        <direccion-entrega>Plaza de la Duquesa, 12</direccion-entrega>
+        <ciudad>Albacete</ciudad>
+        <codigo-postal-envio>05020</codigo-postal-envio>
+        <recogera-producto>
+            <nombre>Alicia</nombre>
+            <apellido>Abad</apellido>
+        </recogera-producto>
+        <direccion-facturacion>General Ricardos, 56</direccion-facturacion>
+        <ciudad-facturacion>Madrid</ciudad-facturacion>
+        <codigo-postal-facturacion>28055</codigo-postal-facturacion>
+    </datos-comprador>
+    <fecha-pedido>
+        <dia>20</dia>
+        <mes>Octubre</mes>
+        <anyo>1999</anyo>
+    </fecha-pedido>
+   
+</pedido>
